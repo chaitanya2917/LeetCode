@@ -2,20 +2,7 @@
 
 👋 Welcome to my LeetCode solutions repository! Here, you'll find my daily grind toward improving problem-solving skills, structured by topics and difficulty levels. 💪
 
-## 📅 Daily LeetCode Practice
-| Date       | Topic         | Problem          | Difficulty | Solution Link |
-|------------|---------------|------------------|------------|---------------|
-| 2025-05-24 | Arrays        | Two Sum          | Easy       | [Solution](./Arrays/TwoSum.py) |
 
-## 📂 Folder Structure
-LeetCode-Solutions/
-├── Arrays/
-│ ├── TwoSum.py
-│ └── BestTimeToBuy.py
-├── Trees/
-│ └── MaxDepthBinaryTree.cpp
-├── ...
-└── README.md
 ## 💡 Why This Repo?
 - **Track progress** toward mastery 🏆
 - Showcase problem-solving skills 📈
