@@ -2,3 +2,26 @@
 ##adfsadfd
 ###asdfasdf
 ✅hey name
+
+
+# Two Sum Solution (Python)
+
+## Problem:
+Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
+
+## Approach:
+- Use a hashmap to store the difference between the target and each number.
+- Check if the complement exists in the hashmap.
+
+**Time Complexity**: O(n)  
+**Space Complexity**: O(n)
+
+## Code:
+```python
+def two_sum(nums, target):
+    hashmap = {}
+    for idx, num in enumerate(nums):
+        complement = target - num
+        if complement in hashmap:
+            return [hashmap[complement], idx]
+        hashmap[num] = idx
