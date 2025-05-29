@@ -2,6 +2,10 @@
 ✅ Time Complexity: Approx. O(2^N), exponential because we try all combinations.
 ✅ Space Complexity: O(target) for the recursion stack and O(#combinations) for the result.
 
+note: here the numbers in candidates list is unique distinct so there is less hassle unlike in the next question combination sum II  where they contain duplicates too
+so there we have to manage these duplicates 
+
+
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         result=[]
@@ -31,6 +35,8 @@ you see in the line 9 you see  "result.append(lis[:])"
 difference between  lis[:] vs lis
 when we pass lis we are passing the reference to the lis (as we also know it is mutable) later if we change the lis it also gets updated
 so we can use lis[:] -> which creates a shallow copy so it won't change by the changes in the lis 
+
+
 
 
 
