@@ -31,8 +31,9 @@ class Solution:
 
 Note: 
 (mistakes i have done)
-you see in the line 9 you see  "result.append(lis[:])"
-difference between  lis[:] vs lis
+you see in the line 9 you see  "result.append(lis[:])"  
+we can also use lis.copy() too
+difference between  (lis[:] or lis.copy()) vs lis
 when we pass lis we are passing the reference to the lis (as we also know it is mutable) later if we change the lis it also gets updated
 so we can use lis[:] -> which creates a shallow copy so it won't change by the changes in the lis 
 
